@@ -1,0 +1,184 @@
+* {
+    box-sizing:border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Golos Text', sans-serif;
+    color: #14110E;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+
+nav {
+    padding-bottom: 15rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 1em;
+    display: block;
+    float: right;
+    text-decoration: none;
+    width: 100px;
+}
+
+#logo {
+    margin-left: 1rem;
+    margin-top: 1em;
+    float: left;
+    height: 5rem;
+    box-shadow: rgb(89, 97, 255) 1px 1px 5px;
+}
+
+/* Content Styling */
+
+#wrapper {
+    display: flex;
+    background: rgb(71, 71, 255);
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: absolute;
+    justify-content: center;
+}
+
+#wrapper2 {
+    display: flex;
+    background: rgb(71, 71, 255);
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: absolute;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#wrapper3 {
+    display: flex;
+    background: rgb(71, 71, 255);
+    float: left;
+    width: 100%;
+    height: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: absolute;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 15px;;
+}
+
+#productWrapper {
+    display: flex;
+    float: left;
+    left: 1%;
+    position: absolute;
+}
+
+#quantityWrapper {
+    display: flex;
+    float: left;
+    left: 65%;
+    position: absolute;
+}
+
+#subtotalWrapper {
+    display: flex;
+    float: right;
+    right: 5%;
+    margin-left: 5%;
+    margin-right: 1%;
+    width: 50px;
+    word-wrap: break-word;
+    position: absolute;
+}
+
+h4 {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    bottom: 15px;
+    text-align: left;
+    position: relative;
+    color: white;
+    padding: 5px;
+}
+
+#zywoo {
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+    width: 62px;
+    height: 62px;
+    flex-wrap: wrap;
+    border-collapse: collapse;
+    left: -200px;
+}
+
+#zywoo:hover {
+    width: 300px;
+    height: 300px;
+    transition: all 0.25s;
+    z-index: 1;
+}
+
+h5 {
+    position: inherit;
+    display: flex;
+    margin-top: 50px;
+    left: 85px;
+}
+
+#quantity {
+    left: 20px;
+    padding: 5px 15px;
+    border: black 2px;
+    border-style: solid;
+}
+
+#subtotal {
+    left: 15px;
+    margin-top: 55px;
+    font-size: large;
+}
+
+h6 {
+    position: inherit;
+    display: flex;
+    left: 85px;
+    margin-top: 75px;
+}
+
+#remove {
+    margin-top: 95px;
+    color: red;
+}
+
+#remove:hover {
+    cursor: crosshair;
+}
+
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
